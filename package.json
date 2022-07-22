@@ -1,0 +1,15 @@
+{
+  "name": "ejercicio9-javascript",
+  "version": "1.0.0",
+  "description": "Ejercicio 9",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Luis Ibañez",
+  "license": "ISC",
+  "dependencies": {
+    "winston": "^3.8.1"
+  }
+}
