@@ -15,7 +15,7 @@ const logger = winston.createLogger({
 });
 
 const error = () => {
-    throw new Error('Siempre da error esta función')
+    throw new Error('Siempre da error esta función');
 }
 
 
@@ -23,4 +23,4 @@ try {
     error()
 } catch (e) {
     logger.error('La función dio error por eso se ejecuta este mensaje') 
-}
+};
